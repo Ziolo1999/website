@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>TNE Technology Website</title>
+        <title></title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,13 +33,42 @@
     <body>
     
         <main>
+            
+            <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+                <div class="container">
+                    <a class="navbar-brand me-auto" href="index.html">
+                        <strong>tne.technology</strong>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">O Nas</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Oferta</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
             <section class="hero" id="hero">
                 <div class="heroText">
                     <h1 class="text-white mt-5 mb-lg-4" data-aos="zoom-in" data-aos-delay="800">
-                        TNE <br>
-                        Technology
+                        Odkryj moc automatyzacji i przekształć swoją działalność!
                     </h1>
+                    <h5 class="text-secondary-white-color" data-aos="fade-up">Innowacyjne rozwiązania automatyzacyjne dla biznesu w pełni dopasowane do Twoich potrzeb.</h5>
                 </div>
 
                 <div class="videoWrapper">
@@ -53,38 +82,6 @@
                 <div class="overlay"></div>
             </section>
 
-            <nav class="navbar navbar-expand-lg bg-light shadow-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <strong>TNE <br> Technology</strong>
-                    </a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#hero">Strona Główna</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">O Nas</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">Portfolio</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
             <section class="section-padding pb-0" id="about">
                 <div class="container mb-5 pb-lg-5">
                     <div class="row">
@@ -94,7 +91,7 @@
 
                         <div class="col-lg-6 col-12 mt-3 mb-lg-5">
                             <p class="me-4" data-aos="fade-up" data-aos-delay="300">
-                                Jesteśmy firmą jednoosobową specjalizującą się w dostosowywaniu potrzeb w zakresie wprowadzania nowoczesnych rozwiązań w automatyzacji linii produkcyjnych.
+                                Jesteśmy firmą specjalizującą się w dostosowywaniu potrzeb w zakresie wprowadzania nowoczesnych rozwiązań w automatyzacji linii produkcyjnych. Istniejemy na rynku już od 2005 roku.
                                 Naszym celem jest pomóc naszym klientom w efektywnym przyspieszeniu i usprawnieniu procesów produkcyjnych poprzez wykorzystanie najnowszych technologii i innowacyjnych rozwiązań.
                                 Współpracujemy zarówno z mniejszymi przedsiębiorstwami, jak i większymi firmami przemysłowymi, oferując kompleksowe usługi w zakresie automatyzacji. 
                             </p>
@@ -162,7 +159,7 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <h2 class="mb-5 text-center" data-aos="fade-up">Portfolio</h2>
+                            <h2 class="mb-5 text-center" data-aos="fade-up">Oferta</h2>
                         </div>
                         <div class="col-lg-6 col-12">
                             <div class="portfolio-thumb" data-aos="fade-up">
@@ -182,7 +179,7 @@
                                 </div>
 
                                 <div class="portfolio-info">                     
-                                    <h4 class="portfolio-title mb-0">Modernizacja maszyn zadaniowych</h4>
+                                    <h5 class="portfolio-title mb-0">Modernizacja maszyn zadaniowych</h5>
                                 </div>
                             </div>
                         
@@ -202,7 +199,7 @@
                                 </div>
 
                                 <div class="portfolio-info">                     
-                                    <h4 class="portfolio-title mb-0">Modernizacja maszyn numerycznych</h4>
+                                    <h5 class="portfolio-title mb-0">Modernizacja maszyn numerycznych</h5>
                                 </div>
                             </div>
                         
@@ -222,32 +219,33 @@
                                 </div>
 
                                 <div class="portfolio-info">                     
-                                    <h4 class="portfolio-title mb-0">Programowanie systemów SCADA</h4>
+                                    <h5 class="portfolio-title mb-0">Programowanie systemów SCADA</h5>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-6 col-12">
                             <div class="portfolio-thumb" data-aos="fade-up">
                                 <div class="video-container">
-                                    <a href="videos/portfolio/conveyor.mp4" class="image-popup">
-                                        <video src="videos/portfolio/conveyor.mp4" class="video-fluid portfolio-video" muted autoplay loop></video>
+                                    <a href="videos/portfolio/SQL.mp4" class="image-popup">
+                                        <video src="videos/portfolio/SQL.mp4" class="video-fluid portfolio-video" muted autoplay loop></video>
                                     </a>
                                     <div class="video-overlay">
                                         <h4 class="video-text">
-                                            Przenośniki taśmowe stanowią niezastąpione narzędzie w efektywnym przemieszczaniu materiałów przemysłowych. 
-                                            Nasza firma specjalizuje się w projektowaniu i wdrażaniu spersonalizowanych rozwiązań przenośnikowych, które 
-                                            dostosowują się do różnorodnych potrzeb branżowych. Dzięki naszemu doświadczeniu i zaawansowanym technologiom, 
-                                            tworzymy przenośniki taśmowe, które przyczyniają się do usprawnienia logistyki, zwiększenia wydajności i optymalizacji procesów produkcyjnych.
+                                            Komunikacja między maszynami w połączeniu z systemami MES, bazami danych SQL i integracją z SAP stanowi 
+                                            fundament współczesnej rewolucji przemysłowej. Nasza firma specjalizuje się w projektowaniu spersonalizowanych rozwiązań, 
+                                            które umożliwiają płynną wymianę informacji, precyzyjne monitorowanie i optymalne zarządzanie produkcją. Dzięki naszemu 
+                                            zaawansowanemu know-how, tworzymy kompleksowe rozwiązania, które przyczyniają się do usprawnienia procesów przemysłowych 
+                                            oraz zwiększają konkurencyjność i innowacyjność przedsiębiorstw.
                                         </h4>
                                     </div>
                                 </div>
 
                                 <div class="portfolio-info">                     
-                                    <h4 class="portfolio-title mb-0">Przenośniki <br> taśmowe</h4>
+                                    <h5 class="portfolio-title mb-0">Migracja systemów</h5>
                                 </div>
                             </div> 
+                        </div>
 
+                        <div class="col-lg-6 col-12">
                             <div class="portfolio-thumb" data-aos="fade-up">
                                 <div class="video-container">
                                     <a href="videos/portfolio/designs.mp4" class="image-popup">
@@ -264,9 +262,29 @@
                                 </div>
 
                                 <div class="portfolio-info">                     
-                                    <h4 class="portfolio-title mb-0">Projektowanie systemów automatyki</h4>
+                                    <h5 class="portfolio-title mb-0">Projektowanie systemów automatyki</h5>
                                 </div>
                             </div>
+
+                            <div class="portfolio-thumb" data-aos="fade-up">
+                                <div class="video-container">
+                                    <a href="videos/portfolio/conveyor.mp4" class="image-popup">
+                                        <video src="videos/portfolio/conveyor.mp4" class="video-fluid portfolio-video" muted autoplay loop></video>
+                                    </a>
+                                    <div class="video-overlay">
+                                        <h4 class="video-text">
+                                            Przenośniki taśmowe stanowią niezastąpione narzędzie w efektywnym przemieszczaniu materiałów przemysłowych. 
+                                            Nasza firma specjalizuje się w projektowaniu i wdrażaniu spersonalizowanych rozwiązań przenośnikowych, które 
+                                            dostosowują się do różnorodnych potrzeb branżowych. Dzięki naszemu doświadczeniu i zaawansowanym technologiom, 
+                                            tworzymy przenośniki taśmowe, które przyczyniają się do usprawnienia logistyki, zwiększenia wydajności i optymalizacji procesów produkcyjnych.
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="portfolio-info">                     
+                                    <h5 class="portfolio-title mb-0">Przenośniki taśmowe</h5>
+                                </div>
+                            </div> 
                             
                             <div class="portfolio-thumb" data-aos="fade-up">
                                 <div class="video-container">
@@ -285,7 +303,28 @@
                                 </div>
 
                                 <div class="portfolio-info">                     
-                                    <h4 class="portfolio-title mb-0">Kominkacja Maszyna - systemy MES, bazy danych SQL, SAP</h4>
+                                    <h5 class="portfolio-title mb-0">Serwis automatyki</h5>
+                                </div>
+                            </div> 
+
+                            <div class="portfolio-thumb" data-aos="fade-up">
+                                <div class="video-container">
+                                    <a href="videos/portfolio/SQL.mp4" class="image-popup">
+                                        <video src="videos/portfolio/SQL.mp4" class="video-fluid portfolio-video" muted autoplay loop></video>
+                                    </a>
+                                    <div class="video-overlay">
+                                        <h4 class="video-text">
+                                            Komunikacja między maszynami w połączeniu z systemami MES, bazami danych SQL i integracją z SAP stanowi 
+                                            fundament współczesnej rewolucji przemysłowej. Nasza firma specjalizuje się w projektowaniu spersonalizowanych rozwiązań, 
+                                            które umożliwiają płynną wymianę informacji, precyzyjne monitorowanie i optymalne zarządzanie produkcją. Dzięki naszemu 
+                                            zaawansowanemu know-how, tworzymy kompleksowe rozwiązania, które przyczyniają się do usprawnienia procesów przemysłowych 
+                                            oraz zwiększają konkurencyjność i innowacyjność przedsiębiorstw.
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="portfolio-info">                     
+                                    <h5 class="portfolio-title mb-0">Integracja systemów automatyki - MES, SQL, SAP</h5>
                                 </div>
                             </div> 
                         </div>
@@ -343,7 +382,7 @@
                     <div class="col-12">
                         <h5 class="text-white">
                             <i class="bi-geo-alt-fill me-2"></i>
-                            Komorniki, Polska
+                            Kraśnik, Polska
                         </h5>
 
                         <h5 class="text-white">
@@ -353,12 +392,12 @@
 
                         <a href="mailto:tz@tne.technology" class="custom-link mt-3 mb-5">
                             <i class="fas fa-envelope"></i>
-                            tz@tne.technology
+                            info@tne.technology
                         </a>
                     </div>
 
                     <div class="col-6">
-                        <p class="copyright-text mb-0">Copyright © TNE Technology 2023 
+                        <p class="copyright-text mb-0">Copyright © tne.technology 2023 
                         
                         <br><br>Design: <a href="https://templatemo.com/page/1" target="_parent">TemplateMo</a></p>
                     
