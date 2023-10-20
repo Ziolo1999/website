@@ -10,7 +10,7 @@ https://templatemo.com/tm-567-nomad-force
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #FFFFFF;
+  --white-color:                  #ffffff;
   --primary-color:                #ecca5c;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
@@ -605,6 +605,35 @@ height: 70%;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
+
+/*---------------------------------------
+  PARTNERS              
+-----------------------------------------*/
+
+.box_partners {
+  width: 300px;
+  height: 100px;
+  background-color: #f3f3f3;
+  background-image: linear-gradient(62deg, #f6f6f6 0%, #f1fbff 100%);
+  color: #05000011;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.box_text {
+  color: #000000;
+  text-align: justify;
+  font-size: 100%;
+  padding: 3%;
+}
+
 
 /*---------------------------------------
   CONTACT              
