@@ -29,7 +29,7 @@ https://templatemo.com/tm-567-nomad-force
   --h5-font-size:               24px;
   --h6-font-size:               22px;
   --p-font-size:                20px;
-  --f-font-size:                11px;
+  --f-font-size:                13px;
   --copyright-text-font-size:   14px;
   --custom-link-font-size:      12px;
   
@@ -114,7 +114,7 @@ p {
 
 f {
   color: var(--p-color);
-  font-size: var(--p-font-size);
+  font-size: var(--f-font-size);
   font-weight: var(--font-weight-light);
   letter-spacing: 0.5px;
   text-align: justify;
